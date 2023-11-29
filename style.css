@@ -1,3 +1,12 @@
+:root{
+    --bg-body: hsl(0, 0%, 8%);
+    --bg-contact: hsl(0, 0%, 14%);
+    --accent: hsl(153, 70%, 59%);
+    --text1: hsl(0, 0%, 100%);
+    --text2: hsl(0, 0%, 85%);
+    --invalid: hsl(7, 100%, 68%);
+    --fs-body: 1.125rem;
+}
 html{
     box-sizing: border-box;
     font-size: 100%;
@@ -8,4 +17,9 @@ html{
 }
 body{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--bg-body);
+    color: var(--text1);
+    font-size: var(--fs-body);
+    line-height: 1.5;
 }
